@@ -4,10 +4,41 @@ section {color: black;}
 }
 
 /*Flexbox*/
-header {
-   display: inline; border: 1px; background-color: black;
+header,footer {background-color: black;}
+header {color: bisque;}
+footer {color: bisque;}
+/* content in my box*/
+p,
+.sidebar1 div,
+.sidebar2 div,
+footer
+ {padding: 20px;
+}
+.finn {
+   min-height: 100vh;
+}
+.finn, .sidebar1, .sidebar2, .Harriet {
+   display: flex;
+   flex: 1 1 auto;
+   flex-direction: column;
+}
+p {
+   flex: 1 1 auto;
+}
+.sidebar1 {
+   background-color: bisque; order: -1.;
+}
+.sidebar2 {
+   background-color: bisque;
+}
+.nav {
+   display: flex;
+   justify-content: space-between;
 }
 
+   
+
+/* idk yet */
 html,body {
    margin: 0;
    text-align: center;
