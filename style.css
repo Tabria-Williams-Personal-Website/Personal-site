@@ -1,0 +1,126 @@
+body {background-color: rgb(236, 9, 85);}
+section {color: black;}
+* { box-sizing: border-box;
+}
+
+/*Flexbox*/
+header,footer {background-color: black;}
+header {color: rgb(253, 253, 252); }
+footer {color: rgb(250, 249, 249);}
+h1 {font-size: 50px;}
+/* content in my box*/
+p,
+.sidebar1 div,
+.sidebar2 div,
+footer
+ {padding: 20px;
+}
+.finn {
+   min-height: 100vh;
+}
+.finn, .Harriet {
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.sidebar1, .sidebar2 {
+   background-color: rgb(252, 252, 252);
+   display:flex;justify-content: space-between;flex-direction: column;
+}
+p {
+   flex: 1 1 auto;
+}
+
+.nav {
+   display: flex;
+   flex: 1 1 auto;
+   align-items: flex-end; justify-content: flex-end;justify-content:space-between;
+
+}
+
+   
+
+/* idk yet */
+html,body {
+   margin: 0;
+   text-align: center;
+}
+/*p quoute style*/
+.Harriet {font-family:fantasy;
+font-style: italic;}
+
+/*link Style*/
+a {color: rgb(250, 249, 248);
+   text-decoration-line: overline;
+   display: inline-block;
+   padding: 10px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ab {
+   color: white;
+}
+.Art {
+   display: flex;
+   flex-direction: column;
+   margin:1%
+}
+.artist {
+   background-color: blue;
+   background: linear-gradient(black,purple,blue);
+   
+}
+
+.p1 {
+   display: flex;
+   color: white;
+}
+.head {
+   color: white;
+}
+.num1 {
+   align-items: flex-start;
+   margin: 0;
+   align-items: baseline;
+   flex-direction: column;
+   justify-content: space-between;
+   
+}
+.p2 {
+   display: flex;
+   color: white;
+}
+.num2 {
+   align-items: flex-start;
+   margin: 0px; 
+   align-items: baseline;
+   flex-direction: column;
+   justify-content: space-between;
+   flex-wrap: wrap;  
+}
+.pad2 {
+   padding: 10px;
+   flex-wrap: wrap;
+}
+@media screen and (min-width: 300px)
+{.nav {
+   font-size: 15px;
+}
+
+}
+
+.textarea {
+   margin: 25px;
+   
+}
+
+.submit {
+   color: white;
+   background-color: black;
+   height: 50px;
+   width: 80px;
+   border-radius: 25%;
+}
+.screenshot {
+   width: 25%;
+}
